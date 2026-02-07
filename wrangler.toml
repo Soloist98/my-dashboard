@@ -1,0 +1,5 @@
+# Cloudflare Pages 静态站点：构建产物为 dist，在 Dashboard 中连接 Git 或上传 dist 即可
+# 若使用 wrangler pages deploy，可取消注释 name 并执行: npx wrangler pages deploy dist --project-name=self-hosted-dashboard
+
+# name = "self-hosted-dashboard"
+# compatibility_date = "2024-01-01"
