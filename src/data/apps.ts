@@ -31,13 +31,21 @@ export const appCategories: AppCategory[] = [
     title: 'AI 网站',
     items: [
       {
-      id: 'deepseek',
-      name: 'DeepSeek',
-      href: 'https://chat.deepseek.com/',
-      icon: 'openai',
-      iconUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/deepseek-color.png',
-      iconFallback: '🤖',
-    },
+        id: 'deepseek',
+        name: 'DeepSeek',
+        href: 'https://chat.deepseek.com/',
+        icon: 'openai',
+        iconUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/deepseek-color.png',
+        iconFallback: 'DS',
+      },
+      {
+        id: 'chatgpt',
+        name: 'ChatGPT',
+        href: 'https://chat.openai.com/',
+        icon: 'openai',
+        iconUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/openai.png',
+        iconFallback: 'GPT',
+      },
     ],
   },
   {

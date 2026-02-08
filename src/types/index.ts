@@ -32,3 +32,22 @@ export interface StatusWidget {
   title: string;
   items: Array<{ label: string; value: string }>;
 }
+
+/**
+ * 金融资产数据项
+ */
+export interface FinanceItem {
+  id: string;
+  name: string;
+  price: number | null;
+  change: number | null;
+  unit: string;
+}
+
+/**
+ * 金融仪表盘数据
+ */
+export interface FinanceData {
+  items: FinanceItem[];
+  updatedAt: number;
+}
