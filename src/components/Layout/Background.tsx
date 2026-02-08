@@ -19,7 +19,7 @@ export function Background({ children }: BackgroundProps) {
       </div>
       
       {/* 可滚动内容 */}
-      <div className="relative z-10 py-6">
+      <div className="relative z-10 py-6 min-[900px]:min-h-screen min-[900px]:flex min-[900px]:items-center">
         {children}
       </div>
     </div>
