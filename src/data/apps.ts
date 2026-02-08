@@ -54,6 +54,7 @@ export const appCategories: AppCategory[] = [
     items: [
       { id: 'w3', name: 'W3 首页', href: 'https://w3.huawei.com/', icon: 'huawei' },
       { id: 'v2ex', name: 'V2EX', href: 'https://www.v2ex.com/', icon: 'v2ex' },
+      { id: 'cloudflare', name: 'Cloudflare', href: 'https://dash.cloudflare.com/', icon: 'cloudflare' },
     ],
   },
 ];

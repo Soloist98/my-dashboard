@@ -85,7 +85,7 @@ const FALLBACK_GOLD: FinanceItem = { id: 'gold', name: '金条', price: null, ch
 const FALLBACK_CRYPTO: FinanceItem[] = [
   { id: 'btc', name: 'BTC', price: null, change: null, unit: '$' },
   { id: 'doge', name: 'DOGE', price: null, change: null, unit: '$' },
-  { id: 'v2ex', name: 'v2ex', price: null, change: null, unit: '$' },
+  { id: 'v2ex', name: 'V2EX', price: null, change: null, unit: '$' },
 ];
 
 /**
