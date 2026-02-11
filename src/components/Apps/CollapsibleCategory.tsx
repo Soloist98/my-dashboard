@@ -28,10 +28,10 @@ export function CollapsibleCategory({ category, expanded, onToggle, compact }: C
       </button>
       {expanded && (
         <div
-className={
+          className={
             compact
               ? 'grid grid-cols-2 gap-1.5'
-              : 'grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6'
+              : 'grid grid-cols-[repeat(auto-fill,minmax(100px,1fr))] gap-3 sm:gap-4'
           }
         >
           {category.items.map((app) => (
