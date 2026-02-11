@@ -14,6 +14,7 @@ export const appCategories: AppCategory[] = [
       { id: 'n8n', name: 'N8N', href: 'http://192.168.31.185:5678/', icon: 'n8n' },
       { id: 'homeassistant', name: 'HomeAssistant', href: 'http://192.168.31.50:8123/', icon: 'homeassistant' },
       { id: 'jellyfin', name: 'JellyFin', href: 'http://192.168.31.165:30000/web/index.html#/home.html', icon: 'jellyfin' },
+      { id: 'aiclient-2-api', name: 'AIClient-2-API', href: 'http://192.168.31.185:3100/', icon: 'openai', iconFallback: 'AI' },
     ],
   },
   {
