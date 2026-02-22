@@ -15,6 +15,7 @@ export const appCategories: AppCategory[] = [
       { id: 'homeassistant', name: 'HomeAssistant', href: 'http://192.168.31.50:8123/', icon: 'homeassistant' },
       { id: 'jellyfin', name: 'JellyFin', href: 'http://192.168.31.165:30000/web/index.html#/home.html', icon: 'jellyfin' },
       { id: 'aiclient-2-api', name: 'AIClient-2-API', href: 'http://192.168.31.185:3200/', icon: 'openai', iconFallback: 'AI' },
+      { id: 'mysql', name: 'MySQL', href: 'http://192.168.31.252:3306', icon: 'mysql' },
     ],
   },
   {
@@ -25,6 +26,7 @@ export const appCategories: AppCategory[] = [
       { id: 'server-18', name: '192.168.31.18', icon: 'linux' },
       { id: 'server-185', name: '192.168.31.185', icon: 'linux' },
       { id: 'server-50', name: '192.168.31.50', icon: 'linux' },
+      { id: 'server-252', name: '192.168.31.252', icon: 'linux' },
     ],
   },
   {
