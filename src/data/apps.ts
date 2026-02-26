@@ -16,6 +16,7 @@ export const appCategories: AppCategory[] = [
       { id: 'jellyfin', name: 'JellyFin', href: 'http://192.168.31.165:30000/web/index.html#/home.html', icon: 'jellyfin' },
       { id: 'aiclient-2-api', name: 'AIClient-2-API', href: 'http://192.168.31.185:3200/', icon: 'openai', iconFallback: 'AI' },
       { id: 'mysql', name: 'MySQL', href: 'http://192.168.31.252:3306', icon: 'mysql' },
+      { id: 'yt-dlp', name: 'Yt-Dlp', href: 'http://192.168.31.185:8010/', icon: 'youtube', iconFallback: 'YT' },
     ],
   },
   {
@@ -48,6 +49,13 @@ export const appCategories: AppCategory[] = [
         icon: 'openai',
         iconUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/openai.png',
         iconFallback: 'GPT',
+      },
+      {
+        id: 'kiro',
+        name: 'Kiro',
+        href: 'https://kiro.dev/',
+        icon: 'anthropic',
+        iconFallback: 'KR',
       },
     ],
   },
