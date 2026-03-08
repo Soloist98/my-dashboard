@@ -17,6 +17,14 @@ export const appCategories: AppCategory[] = [
       { id: 'aiclient-2-api', name: 'AIClient-2-API', href: 'http://192.168.31.185:3200/', icon: 'openai', iconFallback: 'AI' },
       { id: 'mysql', name: 'MySQL', href: 'http://192.168.31.252:3306', icon: 'mysql' },
       { id: 'yt-dlp', name: 'Yt-Dlp', href: 'http://192.168.31.185:8010/', icon: 'youtube', iconFallback: 'YT' },
+      {
+        id: 'openclaw',
+        name: 'OpenClaw',
+        href: 'http://192.168.31.185:18789/',
+        icon: 'claw',
+        iconUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/openclaw-color.svg',
+        iconFallback: 'OC',
+      },
     ],
   },
   {
